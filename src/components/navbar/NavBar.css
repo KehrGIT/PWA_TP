@@ -1,0 +1,37 @@
+/* NavBar.css */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centramos verticalmente */
+  }
+  
+  .logo {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    text-decoration: none;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px; /* Añadimos espacio alrededor del texto */
+    border-radius: 5px; /* Añadimos bordes redondeados */
+    transition: background-color 0.3s; /* Agregamos una transición suave */
+  }
+  
+  .nav-links a:hover {
+    background-color: #555; /* Cambiamos el color de fondo al pasar el mouse */
+  }
+  
