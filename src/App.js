@@ -9,7 +9,7 @@ import LoginPage from './pages/LoginPage';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename='/PWA_TP'>
       <div>
         <NavBar />
         <Routes>
